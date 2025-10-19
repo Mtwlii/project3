@@ -303,6 +303,7 @@ table span {
     margin-top: 50px;
     padding-bottom: 50px;
 }
+
 .winner {
     padding: 25px;
     width: 400px;
@@ -312,8 +313,160 @@ table span {
     text-align: center;
     color: #00A63E;
     border-radius: 10px;
-    border:solid 1px #D3D7DD;
+    border: solid 1px #D3D7DD;
 }
-.winner p:first-child{
+
+.winner p:first-child {
     font-weight: 900;
+}
+
+.customers-say {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.customers-say h2 {
+    /* font-weight: 500; */
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.customers-say p {
+    /* font-weight: 500; */
+    font-size: large;
+}
+
+.customers-say span {
+    color: #7F22FE;
+}
+
+.items {
+    position: relative;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    float: right;
+    border-radius: 20px;
+    border: #E5E7EB solid 3px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+
+.portfolio-img img {
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #A784FF;
+    margin: 10px 10px 10px 0;
+    /* position: absolute; */
+}
+
+.portfolio {
+    margin-bottom: 30px;
+}
+
+.main-contant {
+    font-size: large;
+    line-height: 40px;
+}
+
+.info {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    margin-inline: 10px;
+    line-height: 25px;
+}
+
+.info h4 {
+    font-size: x-large;
+}
+
+.portfolio .right-contant {
+    right: 0;
+    top: 10px;
+    position: absolute;
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+.portfolio .right-contant span {
+    font-weight: bold;
+    background-color: #EDE9FE;
+    color: #5D5EDC;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.portfolio .right-contant p {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.reviews {
+    float: left;
+    margin-top: 20px;
+    width: 33%;
+    border-radius: 30px;
+    border: #E5E7EB solid 3px;
+    height: 350px;
+    position: absolute;
+    padding: 10px;
+}
+
+.rate {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviews .rate span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.rate-1 {
+    position: relative;
+    background-color: #DDD6FF;
+}
+
+.rate-1 .right {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+
+.rate-1 .left {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.rate-1 .yellwo-1 {
+    background-color: #E5E7EB;
+    height: 20px;
+    margin: auto;
+    width: 70%;
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.rate-1 .gray-1 {
+    background-color: #f0b100;
+    height: 20px;
+    width: 70%;
+    position: absolute;
+    border-radius: 20px;
+
 }
