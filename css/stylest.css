@@ -186,19 +186,19 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-.btn-1 {
+.btn .btn-1 {
     color: white;
     background-color: #8E51FF;
     border: #8E51FF solid;
 }
 
-.btn-2 {
+.btn .btn-2 {
     color: #333333;
     border: #E0E2E6 solid;
     background-color: white;
 }
 
-button:hover {
+.btn button:hover {
     transform: scale(1.05);
 
 }
@@ -469,4 +469,226 @@ table span {
     position: absolute;
     border-radius: 20px;
 
+}
+
+.card-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+}
+
+.card-btn button {
+    background-color: #6b28c9;
+    font-size: medium;
+    border: none;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+.card-btn button:hover {
+    background-color: white;
+    color: #6b28c9;
+    border: 2px #6b28c9 solid;
+}
+
+
+.sec3 {
+    background-color: #F7F5FF;
+    display: block;
+}
+
+.setup {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.setup span {
+    color: #6b28c9;
+}
+
+.setup h2 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.setup p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.category-1 {
+    display: block;
+    width: 22%;
+    background-color: white;
+    float: left;
+    margin-inline: 20px;
+    border-radius: 20px;
+
+}
+
+.one-category {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.one-category h3 {
+    margin: 10px;
+}
+
+.one-category p {
+    margin: 10px 10px 0px 10px;
+    line-height: 1.5;
+}
+
+.cat-img img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-1:hover img,
+.category-2:hover img,
+.category-3:hover img,
+.category-4:hover img {
+    transform: scale(1.05);
+}
+
+.category-1 .sp-1 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background-color: #00BBA7;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+.category-2 {
+    display: block;
+    width: 22%;
+    background-color: white;
+    float: left;
+    margin-inline: 20px;
+    border-radius: 20px;
+
+}
+
+.category-2 .sp-2 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background-color: #00C950;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.category-3 {
+    display: block;
+    width: 22%;
+    background-color: white;
+    float: left;
+    margin-inline: 20px;
+    border-radius: 20px;
+
+}
+
+.category-3 .sp-3 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background-color: #00B8DB;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.category-4 {
+    display: block;
+    width: 22%;
+    background-color: white;
+    float: left;
+    margin-inline: 20px;
+    border-radius: 20px;
+
+}
+
+
+.category-4 .sp-4 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background-color: #FF6900;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.end {
+    background-color: #00A63E;
+}
+
+.end span {
+    margin: 40px 20px;
+    float: left;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.end button {
+    display: inline;
+    color: white;
+    background-color: #8E51FF;
+    border: none;
+    width: 45%;
+    float: right;
+    margin-top: 30px;
+    font-size: medium;
+    padding: 5px;
+
+}
+
+.last-btn {
+    font-size: medium;
+    border: none;
+    color: white;
+    width: 20%;
+    margin-top: 40px;
+    margin: auto;
+}
+
+.last-btn button {
+    background-color: white;
+    font-size: medium;
+    border: none;
+    color: #6b28c9;
+    width: 100%;
+    padding: 10px;
+    border: 2px #6b28c9 solid;
+}
+
+.last-btn button:hover {
+    background-color: #6b28c9;
+    color: white;
 }
