@@ -500,6 +500,7 @@ table span {
 .sec3 {
     background-color: #F7F5FF;
     display: block;
+    padding-bottom: 50px;
 }
 
 .setup {
@@ -691,4 +692,111 @@ table span {
 .last-btn button:hover {
     background-color: #6b28c9;
     color: white;
+}
+
+.section-footer {
+
+    background-color: #101828;
+    color: white;
+}
+
+
+.section-footer .container {
+    padding: 50px 0;
+
+}
+
+.footer {
+    display: flex;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 40px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #94A3B8;
+    font-size: medium;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.one-sec {
+    width: 25%;
+}
+
+.one-sec span.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.one-sec p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.one-sec span:nth-child(3) {
+    color: #8E51FF;
+    width: 30px;
+}
+
+.one-sec img {
+    width: 25px;
+    margin: 20px 10px 10px 10px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    border: #43737c solid 1px;
+}
+
+.one-sec img:hover {
+    transform: scale(1.2);
+}
+
+.two-sec {
+    width: 25%;
+}
+
+.four-sec {
+    width: 25%;
+}
+
+.three-sec {
+    width: 25%;
+}
+
+.last-p {
+    float: left;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.pay {
+    float: right;
+    margin-top: 20px;
+
+}
+
+.pay img {
+
+    width: 80px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
 }
